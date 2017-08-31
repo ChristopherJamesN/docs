@@ -1,0 +1,7 @@
+# [Creating Variant Generic Interfaces (Visual Basic)](creating-variant-generic-interfaces.md)
+# [Covariance and Contravariance (Visual Basic)](covariance-and-contravariance.md)
+# [Using Variance for Func and Action Generic Delegates (Visual Basic)](using-variance-for-func-and-action-generic-delegates.md)
+# [Using Variance in Delegates (Visual Basic)](using-variance-in-delegates.md)
+# [Using Variance in Interfaces for Generic Collections (Visual Basic)](using-variance-in-interfaces-for-generic-collections.md)
+# [Variance in Generic Interfaces (Visual Basic)](variance-in-generic-interfaces.md)
+# [Variance in Delegates (Visual Basic)](variance-in-delegates.md)

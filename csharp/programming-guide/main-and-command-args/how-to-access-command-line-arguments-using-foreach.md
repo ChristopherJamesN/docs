@@ -1,0 +1,45 @@
+---
+title: "How to: Access Command-Line Arguments Using foreach (C# Programming Guide) | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
+ms.prod: "visual-studio-dev14"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "devlang-csharp"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+dev_langs: 
+  - "CSharp"
+helpviewer_keywords: 
+  - "command-line arguments [C#]"
+ms.assetid: 89c3e335-3f5b-4e24-8c5a-b8036561fe8a
+caps.latest.revision: 15
+author: "BillWagner"
+ms.author: "wiwagn"
+manager: "wpickett"
+---
+# How to: Access Command-Line Arguments Using foreach (C# Programming Guide)
+[!INCLUDE[csharpbanner](../../../includes/csharpbanner.md)]
+
+Another approach to iterating over the array is to use the [foreach](../../../csharp/language-reference/keywords/foreach-in.md) statement as shown in this example. The `foreach` statement can be used to iterate over an array, a .NET Framework collection class, or any class or struct that implements the <xref:System.Collections.IEnumerable> interface.  
+  
+> [!NOTE]
+>  When running an application in Visual Studio, you can specify command-line arguments in the [Debug Page, Project Designer](/visual-studio/ide/reference/debug-page-project-designer).  
+  
+## Example  
+ This example demonstrates how to print out the command line arguments using `foreach`.  
+  
+ [!code-csharp[csProgGuideMain#10](../../../samples/snippets/csharp/VS_Snippets_VBCSharp/csProgGuideMain/CS/Class2.cs#10)]  
+  
+ [!code-csharp[csProgGuideMain#11](../../../samples/snippets/csharp/VS_Snippets_VBCSharp/csProgGuideMain/CS/Class1.cs#11)]  
+  
+## See Also  
+ <xref:System.Array>   
+ <xref:System.Collections>   
+ [Command-line Building With csc.exe](../../../csharp/language-reference/compiler-options/command-line-building-with-csc-exe.md)   
+ [C# Programming Guide](../../../csharp/programming-guide/index.md)   
+ [foreach, in](../../../csharp/language-reference/keywords/foreach-in.md)   
+ [Main() and Command-Line Arguments](../../../csharp/programming-guide/main-and-command-args/main-and-command-line-arguments.md)   
+ [How to: Display Command Line Arguments](../../../csharp/programming-guide/main-and-command-args/how-to-display-command-line-arguments.md)   
+ [Main() Return Values](../../../csharp/programming-guide/main-and-command-args/main-return-values.md)

@@ -1,0 +1,65 @@
+---
+title: "IsNot Operator (Visual Basic) | Microsoft Docs"
+ms.custom: ""
+ms.date: "2015-07-20"
+ms.prod: "visual-studio-dev14"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "devlang-visual-basic"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+f1_keywords: 
+  - "vb.isnot"
+dev_langs: 
+  - "VB"
+helpviewer_keywords: 
+  - "IsNot operator"
+ms.assetid: 8dd2bcdb-0166-48a2-9094-60dfb448f36c
+caps.latest.revision: 13
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
+---
+# IsNot Operator (Visual Basic)
+[!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
+
+Compares two object reference variables.  
+  
+## Syntax  
+  
+```  
+  
+result = object1 IsNot object2  
+```  
+  
+## Parts  
+ `result`  
+ Required. A `Boolean` value.  
+  
+ `object1`  
+ Required. Any `Object` variable or expression.  
+  
+ `object2`  
+ Required. Any `Object` variable or expression.  
+  
+## Remarks  
+ The `IsNot` operator determines if two object references refer to different objects. However, it does not perform value comparisons. If `object1` and `object2` both refer to the exact same object instance, `result` is `False`; if they do not, `result` is `True`.  
+  
+ `IsNot` is the opposite of the `Is` operator. The advantage of `IsNot` is that you can avoid awkward syntax with `Not` and `Is`, which can be difficult to read.  
+  
+ You can use the `Is` and `IsNot` operators to test both early-bound and late-bound objects.  
+  
+> [!NOTE]
+>  The `IsNot` operator cannot be used to compare expressions returned from the `TypeOf` operator. Instead, you must use the `Not` and `Is` operators.  
+  
+## Example  
+ The following code example uses both the `Is` operator and the `IsNot` operator to accomplish the same comparison.  
+  
+ [!code-vb[VbVbalrOperators#29](../../../samples/snippets/visualbasic/VS_Snippets_VBCSharp/VbVbalrOperators/VB/Class1.vb#29)]  
+  
+## See Also  
+ [Is Operator](../../../visual-basic/language-reference/operators/is-operator.md)   
+ [TypeOf Operator](../../../visual-basic/language-reference/operators/typeof-operator.md)   
+ [Operator Precedence in Visual Basic](../../../visual-basic/language-reference/operators/operator-precedence.md)   
+ [How to: Test Whether Two Objects Are the Same](../../../visual-basic/programming-guide/language-features/operators-and-expressions/how-to-test-whether-two-objects-are-the-same.md)

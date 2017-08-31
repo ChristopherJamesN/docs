@@ -1,0 +1,5 @@
+# [Using Delegates (C# Programming Guide)](using-delegates.md)
+# [How to: Combine Delegates (Multicast Delegates)(C# Programming Guide)](how-to-combine-delegates-multicast-delegates.md)
+# [How to: Declare, Instantiate, and Use a Delegate (C# Programming Guide)](how-to-declare-instantiate-and-use-a-delegate.md)
+# [Delegates (C# Programming Guide)](index.md)
+# [Delegates with Named vs. Anonymous Methods (C# Programming Guide)](delegates-with-named-vs-anonymous-methods.md)
